@@ -66,7 +66,7 @@ class HomeController extends Controller
                 $application->name = request('name');
                 $application->email = $email;
                 $application->job_id = request('job_id');
-                $application->resume = '/resume/'.$email.'/'.$file;
+                $application->resume = $file->getClientOriginalName();
          
                 $application->save();
 
