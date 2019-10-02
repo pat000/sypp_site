@@ -249,9 +249,9 @@
               
               <h4>Feel fulfilled. Have fun. Grow with us.</h4>
               <p>When it comes to managing safety, security and compliance for your business, you need a great company. Contact us to discuss how StunnerYPP best fits your business growth.</p>
-              @if (\Session::has('success'))
+              @if (\Session::has('success_message'))
                   <h4 style="color: #00c53c;font-weight: bold;">
-                    {!! \Session::get('success') !!}
+                    {!! \Session::get('success_message') !!}
                   </h4>
                 @endif
               <form action="{{ route('contact') }}" method="post" role="form">

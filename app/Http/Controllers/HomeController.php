@@ -49,7 +49,7 @@ class HomeController extends Controller
                     ->subject($data['subject']);
         });
 
-        return redirect()->back()->with('success', 'Email successfully sent.'); 
+        return redirect('/#footer')->with('success_message', 'Email successfully sent.'); 
     }
 
     public function submit_application(Request $request)
