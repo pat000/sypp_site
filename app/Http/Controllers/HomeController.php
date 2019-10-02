@@ -54,7 +54,7 @@ class HomeController extends Controller
          
                 $application->save();
 
-                $destinationPath = public_path('/resume');
+                $destinationPath = storage_path('/resume');
                 
                 $avatar_width = 200;
                 $avatar_height = 200;
