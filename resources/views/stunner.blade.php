@@ -210,13 +210,13 @@
                 <div class="row">
         					<div class="col-lg-6">
         						<div class="form-group">
-        						  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+        						  <input type="text" name="name" class="form-control" required="" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
         						  <div class="validation"></div>
         						</div>
         					</div>
         					<div class="col-lg-6">
         						<div class="form-group">
-        						  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+        						  <input type="email" class="form-control" name="email" required="" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
         						  <div class="validation"></div>
         						</div>
         					</div>
