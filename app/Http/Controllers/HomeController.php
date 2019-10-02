@@ -34,6 +34,23 @@ class HomeController extends Controller
         return view('job', $data);
     }
 
+    public function contact(Request $request)
+    {
+        $data = $request->all();
+        $data['email']  = $request->get('email');
+        $data['name']   = $request->get('name');
+        $data['message']   = $request->get('message');
+        $data['subject']   = $request->get('subject');
+
+        \Mail::send('emails.contacts', ['data' => $data], function($message) use( $data)
+        {
+            $message->from($data['email'])
+                    ->to('info@stunnermedia.com', $data['name'])
+                    ->subject($data['subject']);
+        });
+
+        return redirect()->back()->with('success', 'Email successfully sent.'); 
+    }
 
     public function submit_application(Request $request)
     {

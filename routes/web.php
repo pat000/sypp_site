@@ -12,9 +12,7 @@
 */
 
 Route::get('/', 'HomeController@index')->name('home');
-
 Route::get('/job/{slug}', 'HomeController@job')->name('job');
 
-
 Route::post('/submit-application', 'HomeController@submit_application')->name('submit-application');
-
+Route::post('/contact', 'HomeController@contact')->name('contact');

@@ -249,22 +249,27 @@
               
               <h4>Feel fulfilled. Have fun. Grow with us.</h4>
               <p>When it comes to managing safety, security and compliance for your business, you need a great company. Contact us to discuss how StunnerYPP best fits your business growth.</p>
-              <form action="" method="post" role="form" class="contactForm">
+              @if (\Session::has('success'))
+                  <h4 style="color: #00c53c;font-weight: bold;">
+                    {!! \Session::get('success') !!}
+                  </h4>
+                @endif
+              <form action="{{ route('contact') }}" method="post" role="form">
+                {{ csrf_field() }}
                 <div class="row">
-					<div class="col-lg-6">
-						<div class="form-group">
-						  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-						  <div class="validation"></div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="form-group">
-						  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
-						  <div class="validation"></div>
-						</div>
-					</div>
-				</div>
-			
+        					<div class="col-lg-6">
+        						<div class="form-group">
+        						  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+        						  <div class="validation"></div>
+        						</div>
+        					</div>
+        					<div class="col-lg-6">
+        						<div class="form-group">
+        						  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+        						  <div class="validation"></div>
+        						</div>
+        					</div>
+        				</div>
                 <div class="form-group">
                   <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
                   <div class="validation"></div>
