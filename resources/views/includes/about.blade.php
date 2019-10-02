@@ -94,11 +94,11 @@ world much quicker than most sites. While most websites offer from a single serv
 				<img src="img/stunnerypp_mission_vision.svg" class="img-fluid lazy" alt="">
 			  </div>
 			  <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
-				<h4>Our Mission</h4>
+				<h4>Mission</h4>
 				<p class="text_indent">Our mission is to be the leading online marketing service provider.</p>
-				<h4>Our Vision</h4>
+				<h4>Vision</h4>
 				<p class="text_indent">Our vision is to be the best online marketer for companies who want to expand and grow.</p>
-				<h4>Our Core Value</h4>
+				<h4>Core Values</h4>
         <div class="row">
               <div class="col-lg-4">
               <p class="text_indent"><span class="checked">&#10003;</span> Excellence<br>
@@ -153,7 +153,7 @@ world much quicker than most sites. While most websites offer from a single serv
       <div class="container-fluid container-full">
 
         <div class="row">
-            <div class="play-backdrop"></div>
+            <div class="play-backdrop" onclick="pauseVid()"></div>
             <div class="play-button">
               
               <span onclick="playVid()">
