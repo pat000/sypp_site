@@ -45,7 +45,7 @@ class HomeController extends Controller
         \Mail::send('emails.contacts', ['data' => $data], function($message) use( $data)
         {
             $message->from($data['email'])
-                    ->to('info@stunnermedia.com', $data['name'])
+                    ->to('info@stunnerypp.com', $data['name'])
                     ->subject($data['subject']);
         });
 
