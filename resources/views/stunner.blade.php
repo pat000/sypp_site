@@ -24,7 +24,8 @@
   <link href="{{asset('lib/lightbox/css/lightbox.min.css')}}" rel="stylesheet">
   <link rel="stylesheet" href="{{asset('lib/popup/magnific-popup.css')}}">
   <link rel="stylesheet" href="{{asset('lib/popup/style.css')}}">
-  
+  <meta name="theme-color" content="#d82123">
+
   {{-- <script async src="{{asset('lib/cloud3d/analytic.js')}}"></script>
 	<script src="{{asset('lib/cloud3d/cloud3d.js')}}"></script>
 	<link href="{{asset('lib/cloud3d/cloudstyle.css')}}" rel="stylesheet"> --}}
