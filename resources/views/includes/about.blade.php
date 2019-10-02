@@ -95,27 +95,27 @@ world much quicker than most sites. While most websites offer from a single serv
 			  </div>
 			  <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
 				<h4>Our Mission</h4>
-				<p class="text_indent">Our Mission is to be the leading online marketing service provider.</p>
+				<p class="text_indent">Our mission is to be the leading online marketing service provider.</p>
 				<h4>Our Vision</h4>
-				<p class="text_indent">Our Vision is to be the best online marketer for companies who want to expand and grow.</p>
+				<p class="text_indent">Our vision is to be the best online marketer for companies who want to expand and grow.</p>
 				<h4>Our Core Value</h4>
-				<div class="row">
-             	<div class="col-lg-4">
-            	<p class="text_indent">Excellence<br>
-				Commitment<br>
-				Teamwork</p>
+        <div class="row">
+              <div class="col-lg-4">
+              <p class="text_indent"><span class="checked">&#10003;</span> Excellence<br>
+        <span class="checked">&#10003;</span> Commitment<br>
+        <span class="checked">&#10003;</span> Teamwork</p>
                 </div>
                 <div class="col-lg-4">
-                <p class="text_indent">Creativity<br>
-				Focus<br>
-				Openness</p>
+                <p class="text_indent"><span class="checked">&#10003;</span> Creativity<br>
+        <span class="checked">&#10003;</span> Focus<br>
+        <span class="checked">&#10003;</span> Openness</p>
                 </div>
                 <div class="col-lg-4">
-                <p class="text_indent">Respect<br>
-				Fun!</p>
+                <p class="text_indent"><span class="checked">&#10003;</span> Respect<br>
+        <span class="checked">&#10003;</span> Fun!</p>
                 </div>
             </div>
-			  </div>
+        </div>
 			  
 			</div>
 		
@@ -155,24 +155,26 @@ world much quicker than most sites. While most websites offer from a single serv
         <div class="row">
             <div class="play-backdrop"></div>
             <div class="play-button">
-            
-              <svg class="play-circles" viewBox="0 0 152 152">
+              
+              <span onclick="playVid()">
+              <svg class="play-circles" id viewBox="0 0 152 152">
                 <circle class="play-circle-01" fill="none" stroke="#fff" stroke-width="3" stroke-dasharray="343 343" cx="76" cy="76" r="72.7"/>
                	<svg viewBox="0 0 26 26">
              		<polygon class="play-btn__svg" points="9.33 6.69 9.33 19.39 19.3 13.04 9.33 6.69"/>
-             	</svg>
+             	  </svg>
                 <circle class="play-circle-02" fill="none" stroke="#fff" stroke-width="3" stroke-dasharray="309 309" cx="76" cy="76" r="65.5"/>
               </svg>
+              </span>
               <div class="play-perspective">
-                <button class="play-close"></button>
+                <button class="play-close" onclick="pauseVid()"></button>
                 <div class="play-triangle">
                   <div class="play-video">
-                    {{-- <iframe src="img/stunnerypp_work_flow.mp4" frameborder="0" allow=" encrypted-media" allowfullscreen></iframe> --}}
+                    {{-- <iframe src="img/bg3.mp4" id="video1" frameborder="0" allow="encrypted-media" allowfullscreen></iframe> --}}
 
-                    <video width="100%" height="100%" controls>
-                        <source src="img/bg3.mp4" type="video/mp4">
-                      Your browser does not support the video tag.
-                      </video>
+                    <video id="myVideo" width="100%" height="100%">
+                      <source src="{{asset('img/bg3.mp4')}}" type="video/mp4">
+                      Your browser does not support HTML5 video.
+                    </video>
                   </div>
                 </div>
               </div>
@@ -182,3 +184,15 @@ world much quicker than most sites. While most websites offer from a single serv
       </div>
     </div>
   </section>
+
+  <script type="text/javascript">
+     var vid = document.getElementById("myVideo"); 
+
+      function playVid() { 
+        vid.play(); 
+      } 
+
+      function pauseVid() { 
+        vid.pause(); 
+      } 
+  </script>
