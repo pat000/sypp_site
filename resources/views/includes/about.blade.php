@@ -1,3 +1,12 @@
+
+<style type="text/css">
+  
+  @media only screen and (min-device-width: 375px){
+   #myVideo{
+    width:70%;
+   }
+  }
+</style>
 <!--==========================
       About Us Section
     ============================-->
