@@ -5,7 +5,6 @@
      <div id="particles-js"></div>
       <div class="container">
      
-
         <header class="section-header">
           
           <h3><span class="pinkbox">what we do</span>Lets do great work. Together.</h3>
@@ -14,7 +13,7 @@
 
         <div class="row">
 
-          <div class="col-md-6 col-lg-4 wow zoomInLeft" data-wow-duration="1s">
+          <div class="col-md-6 col-lg-4" data-wow-duration="1s">
             <div class="inline-popups">
             <a href="#web-popup" data-effect="mfp-3d-unfold">
             	<div class="box">
@@ -28,7 +27,7 @@
           </div>
 		  </div>
           
-          <div class="col-md-6 col-lg-4 wow zoomInDown" data-wow-duration="1.3s">
+          <div class="col-md-6 col-lg-4" data-wow-duration="1.3s">
             <div class="inline-popups">
             <a href="#webdev-popup" data-effect="mfp-3d-unfold">
             	<div class="box">
@@ -42,7 +41,7 @@
           </div>
 		  </div>
           
-          <div class="col-md-6 col-lg-4 wow zoomInRight" data-wow-duration="1.6s">
+          <div class="col-md-6 col-lg-4" data-wow-duration="1.6s">
             <div class="inline-popups">
             <a href="#affiliate-popup" data-effect="mfp-3d-unfold">
             	<div class="box">
@@ -56,7 +55,7 @@
           </div>
 		  </div>
           
-          <div class="col-md-6 col-lg-4 wow slideInLeft" data-wow-duration="2.5s">
+          <div class="col-md-6 col-lg-4" data-wow-duration="2.5s">
             <div class="inline-popups">
             <a href="#sm-popup" data-effect="mfp-3d-unfold">
             	<div class="box">
@@ -70,7 +69,7 @@
           </div>
 		  </div>
                     
-          <div class="col-md-6 col-lg-4 wow zoomIn" data-wow-duration="2.2s">
+          <div class="col-md-6 col-lg-4" data-wow-duration="2.2s">
             <div class="inline-popups">
             <a href="#social-popup" data-effect="mfp-3d-unfold">
             	<div class="box">
@@ -84,7 +83,7 @@
           </div>
 		  </div>
           
-          <div class="col-md-6 col-lg-4 wow slideInRight" data-wow-duration="1.9s">
+          <div class="col-md-6 col-lg-4" data-wow-duration="1.9s">
             <div class="inline-popups">
             <a href="#cs-popup" data-effect="mfp-3d-unfold">
             	<div class="box">
@@ -98,7 +97,7 @@
           </div>
 		  </div>
           
-          <div class="col-md-6 col-lg-4 wow zoomInLeft" data-wow-duration="1s">
+          <div class="col-md-6 col-lg-4" data-wow-duration="1s">
             <div class="inline-popups">
             <a href="#marketing-popup" data-effect="mfp-3d-unfold">
             	<div class="box">
@@ -112,7 +111,7 @@
           </div>
 		  </div>
           
-          <div class="col-md-6 col-lg-4 wow zoomInUp" data-wow-duration="1.3s">
+          <div class="col-md-6 col-lg-4" data-wow-duration="1.3s">
             <div class="inline-popups">
             <a href="#content-popup" data-effect="mfp-3d-unfold">
             	<div class="box">
@@ -126,7 +125,7 @@
           </div>
 		  </div>
           
-          <div class="col-md-6 col-lg-4 wow zoomInRight" data-wow-duration="1s">
+          <div class="col-md-6 col-lg-4" data-wow-duration="1s">
             <div class="inline-popups">
             <a href="#software-popup" data-effect="mfp-3d-unfold">
             	<div class="box">

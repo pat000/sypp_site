@@ -4,6 +4,7 @@
 # General
 --------------------------------------------------------------*/
 
+
 body {
   background: #000;
   color: #444;
@@ -1136,13 +1137,13 @@ iframe {
   height: 400px;
   position: absolute;
   left: -230px;
-  top: -125px;
+  top: -67px;
 }
 
 .play-triangle {
   width: 600px;
   height: 400px;
-  background-color: #fff;
+  /*background-color: #000;*/
   cursor: pointer;
 }
 .play-btn__svg{

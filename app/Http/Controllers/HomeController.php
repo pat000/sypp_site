@@ -22,8 +22,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $data['jobs'] = Jobs::get();
-
+        $data['jobs'] = Jobs::orderBy('created_at', 'desc')->get();
         return view('home', $data);
     }
 

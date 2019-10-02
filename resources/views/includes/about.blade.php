@@ -8,7 +8,7 @@
 
           <div class="col-lg-6 col-md-6 about-img wow bounceInLeft"  data-wow-duration="1s">
            <div class="about-img">
-              <img src="img/stunnerypp_about_us.jpg" alt="About StunnerYPP">
+              <img src="img/stunnerypp_about_us.jpg" class="lazy" alt="About StunnerYPP">
             </div>
           </div>
 
@@ -55,7 +55,7 @@
             
 		<div class="row feature-item">
           <div class="col-lg-6">
-            <img src="img/stunnerypp_business_expert.svg" class="img-fluid" alt="">
+            <img src="img/stunnerypp_business_expert.svg" class="img-fluid lazy" alt="">
           </div>
           <div class="col-lg-6 pt-5 pt-lg-0">
             <h4>It was established in 2008 by experienced executives with over 20 years of proven leadership and expertise in developing business and affiliates program.</h4>
@@ -72,7 +72,7 @@ world much quicker than most sites. While most websites offer from a single serv
             
 			<div class="row feature-item pt-5">
 			  <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
-				<img src="img/stunnerypp_culture.svg" class="img-fluid" alt="">
+				<img src="img/stunnerypp_culture.svg" class="img-fluid lazy " alt="">
 			  </div>
 
 			  <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
@@ -91,7 +91,7 @@ world much quicker than most sites. While most websites offer from a single serv
             </div>
 			<div class="row feature-item mt-5">
 			  <div class="col-lg-6 wow fadeInUp">
-				<img src="img/stunnerypp_mission_vision.svg" class="img-fluid" alt="">
+				<img src="img/stunnerypp_mission_vision.svg" class="img-fluid lazy" alt="">
 			  </div>
 			  <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
 				<h4>Our Mission</h4>
@@ -167,7 +167,12 @@ world much quicker than most sites. While most websites offer from a single serv
                 <button class="play-close"></button>
                 <div class="play-triangle">
                   <div class="play-video">
-                    <iframe src="img/stunnerypp_work_flow.mp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    {{-- <iframe src="img/stunnerypp_work_flow.mp4" frameborder="0" allow=" encrypted-media" allowfullscreen></iframe> --}}
+
+                    <video width="100%" height="100%" controls>
+                        <source src="img/stunnerypp_work_flow.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                      </video>
                   </div>
                 </div>
               </div>

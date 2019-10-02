@@ -7,13 +7,13 @@
       <div class="container">
 
 		  <div class="career-content">
-            <div class="wow bounceInUp"  data-wow-duration="1.2s">
+            <div class=" "  data-wow-duration="1.2s">
               <h2 class="opencareers"><span class="pinkbox">Join Stunnerypp</span>Open Careers</h3>
               <p>Feel fulfilled. Have fun. Help us to shape the future of safety, security and compliance.</p>
               </div>
               <!--List Jobs Row-->
               
-              <div class="container1 wow bounceInUp"  data-wow-duration="1.2s">
+              <div class="container1 wow " >
                   <div class="row role">
                     <div class="col-sm">
                       Role
@@ -29,7 +29,7 @@
               
               @foreach ($jobs->take(5) as $job)  
                 <!--List Jobs Row-->
-              <div class="container2 wow bounceInUp"  data-wow-duration="1.4s">
+              <div class="container2  ">
                   <div class="row">
                     <div class="col-sm jobtitle">
                       {{ $job->title }}
