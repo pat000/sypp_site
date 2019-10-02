@@ -170,7 +170,7 @@ world much quicker than most sites. While most websites offer from a single serv
                     {{-- <iframe src="img/stunnerypp_work_flow.mp4" frameborder="0" allow=" encrypted-media" allowfullscreen></iframe> --}}
 
                     <video width="100%" height="100%" controls>
-                        <source src="img/stunnerypp_work_flow.mp4" type="video/mp4">
+                        <source src="img/bg3.mp4" type="video/mp4">
                       Your browser does not support the video tag.
                       </video>
                   </div>
